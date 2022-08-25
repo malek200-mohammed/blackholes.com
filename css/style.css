@@ -1,0 +1,33 @@
+html {
+  background: url(https://imgs.search.brave.com/njFeqXF4gLOKt89TX8YjmlqnT7_H5nwsu7Qh2GNR6UE/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5D/QU5WdzFjd0RiU3VK/MjltSWtrMkZ3SGFE/NCZwaWQ9QXBp) no-repeat center fixed;
+  background-size: cover;
+}
+
+#a:hover{
+  color:red;
+}
+
+h2 + a:hover{
+  color: purple;
+}
+
+textarea ~ button {
+  color: red;
+}
+
+
+ol > li {
+  color: blue;
+}
+
+.b:hover{
+  color:blue;
+}
+
+h2[class=lll]:hover{
+  color:blue;
+}
+
+h2[class~=aaa]:hover{
+  background:white:
+}
